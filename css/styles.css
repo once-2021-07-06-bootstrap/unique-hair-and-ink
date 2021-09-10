@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Bebas Neue";
     
 }
 
@@ -24,7 +24,7 @@ header h2 {
 }
 
 .site-footer {
-    background-color:#9e1d21;
+    background-image: linear-gradient(#9e1d21,#c38c6c);;
     color: #000000;
     padding: 20px 0;
 }
@@ -33,6 +33,7 @@ header h2 {
     margin: 0;
     padding: 30px;
     background-color:#9e1d21;
+    text-align:center;
 }
 
 .row-content {
@@ -42,8 +43,7 @@ header h2 {
 }
 
 .navbar-dark {
-     background-color: #9e1d21;
-     border: 2px solid #c38c6c;
+     background-image: linear-gradient(to right, #9e1d21, #c38c6c,#c38c6c);
      color:#c38c6c;
 }
 
@@ -59,6 +59,14 @@ header h2 {
 
 .carousel {
     border: solid #000000;
+}
+
+a:link {
+    color:#000000;
+}
+
+.nav-link {
+    color:#000000;
 }
 
 <!-- gold font= #c38c6c --> <!-- blue font= #b6b5bb --> 
